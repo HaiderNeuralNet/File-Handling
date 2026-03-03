@@ -88,7 +88,7 @@ Building CLI-based applications
 5. Click **Commit changes**
 
 ---
-##👨‍💻 Author
+##  👨‍💻 Author
 
 Haider Ali Shah
 
