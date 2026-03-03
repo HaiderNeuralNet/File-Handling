@@ -11,7 +11,6 @@
 - [🛠️ Technologies Used](#technologies-used)
 - [▶️ How to Run](#-how-to-run-step-by-step)
 - [🎯 Project Purpose](#project-purpose)
-- [📄 License](#license)
 - [👥 Author](#author)
 
 
@@ -89,4 +88,7 @@ Building CLI-based applications
 5. Click **Commit changes**
 
 ---
+##👨‍💻 Author
 
+Haider Ali Shah
+Aspiring AI & LLM Engineer 🚀
