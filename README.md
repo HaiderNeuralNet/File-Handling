@@ -35,13 +35,13 @@ This application allows users to manage files directly from the terminal through
 ## ▶️ How to Run (Step-by-Step)
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/HaiderNeuralNet/File-Handling.git
-2️⃣ Navigate to Project Folder
+### 2️⃣ Navigate to Project Folder
 cd your-repository-name
-3️⃣ Run the Program
+### 3️⃣ Run the Program
 python main.py
-```
+
 
 ## 🎯 Project Purpose
 
