@@ -4,6 +4,19 @@
 ![CRUD](https://img.shields.io/badge/Project-CRUD-blue)
 ![CLI](https://img.shields.io/badge/Interface-CLI-black)
 
+
+## 📋 Table of Contents
+- [📁 Python File Handling](#-python-file-handling-crud-project)
+- [🚀 Features](#-features)
+- [🛠️ Technologies Used](#technologies-used)
+- [▶️ How to Run](#-how-to-run-step-by-step)
+- [🎯 Project Purpose](#project-purpose)
+- [📄 License](#license)
+- [👥 Author](#author)
+
+
+
+
 A beginner-friendly Python project that demonstrates **CRUD operations (Create, Read, Update, Delete)** using the built-in `pathlib` and `os` modules.
 
 This application allows users to manage files directly from the terminal through a simple interactive menu system.
@@ -34,13 +47,22 @@ This application allows users to manage files directly from the terminal through
 
 ## ▶️ How to Run (Step-by-Step)
 
-### 1️⃣ Clone the Repository
 
+
+### 1️⃣ Prerequisites
+- Python 3.11+ installed
+
+### 2️⃣ Clone the Repository
 git clone https://github.com/HaiderNeuralNet/File-Handling.git
-### 2️⃣ Navigate to Project Folder
-cd your-repository-name
-### 3️⃣ Run the Program
+
+### 3️⃣ Navigate to Project Folder
+cd File-Handling
+
+### 4️⃣ Run the Program
 python main.py
+
+Paste ends 👆
+
 
 
 ## 🎯 Project Purpose
