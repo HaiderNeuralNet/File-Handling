@@ -60,7 +60,7 @@ cd File-Handling
 ### 4️⃣ Run the Program
 python main.py
 
-Paste ends 👆
+
 
 
 
@@ -91,4 +91,5 @@ Building CLI-based applications
 ##👨‍💻 Author
 
 Haider Ali Shah
+
 Aspiring AI & LLM Engineer 🚀
