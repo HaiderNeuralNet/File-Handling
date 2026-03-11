@@ -3,7 +3,7 @@ import os
 
 def readfiles():
     path=Path('')
-    items=list(path.rglob('*'))
+    items=list(path.rglob(''))
     for i, item in enumerate(items):
         print(f'{i+1} : {item}')
 
@@ -110,33 +110,40 @@ def deletefile():
 
 
 
+while True:
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 
-print("||============================================================||")
-print("||This is the file handling project for better understanding :||")
-print("||------------------------------------------------------------||")
-print('||                        CRUD operations :                   ||')
-print('||------------------------------------------------------------||')
-print("||                    Press 1 for creating file :-            ||")
-print("||                    Press 2 for Reading file  :-            ||")
-print("||                    Press 3 for Updating file :             ||")
-print("||                    Press 4 for Deleting file :-            ||")
-print("||============================================================||")
+    print("||============================================================||")
+    print("||This is the file handling project for better understanding :||")
+    print("||------------------------------------------------------------||")
+    print('||                        CRUD operations :                   ||')
+    print('||------------------------------------------------------------||')
+    print("||                    Press 1 for creating file :-            ||")
+    print("||                    Press 2 for Reading file  :-            ||")
+    print("||                    Press 3 for Updating file :             ||")
+    print("||                    Press 4 for Deleting file :-            ||")
+    print("||============================================================||")
 
 
-check=int(input("Enter you choice from (1-4):-"))
+    check=int(input("Enter you choice from (1-4):-"))
 
 
-if check==1:
-    createfile()
+    if check==1:
+        createfile()
+        input("\nPress Enter to return to menu...")
 
-if check ==2:
-    readfile()
+    elif check ==2:
+        readfile()
+        input("\nPress Enter to return to menu...")
+        
+    elif check ==3:
+        updatefile()
+        input("\nPress Enter to return to menu...")
+    elif check==4:
+        deletefile()
+        input("\nPress Enter to return to menu...")
     
-if check ==3:
-    updatefile()
-if check==4:
-    deletefile()
 
 
 
